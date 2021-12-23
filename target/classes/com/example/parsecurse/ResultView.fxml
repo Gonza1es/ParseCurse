@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="384.0" style="-fx-background-color: #CAA067;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.parsecurse.ResultController">
+   <children>
+      <TableView fx:id="tableArea" layoutX="30.0" layoutY="86.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="248.0" prefWidth="321.0" style="-fx-background-color: #B1906D;" AnchorPane.bottomAnchor="66.0">
+        <columns>
+          <TableColumn fx:id="shopName" prefWidth="95.20001220703125" text="Магазин" />
+          <TableColumn fx:id="productName" prefWidth="138.4000244140625" text="Товар" />
+            <TableColumn fx:id="data1" prefWidth="75.0" text="Цена" />
+        </columns>
+      </TableView>
+      <Button fx:id="downloadButton" layoutX="142.0" layoutY="350.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="210.0" style="-fx-background-color: #FFFFFF;" text="Скачать таблицу" />
+      <Label layoutX="31.0" layoutY="35.0" prefHeight="26.0" prefWidth="322.0" style="-fx-background-color: #B1906D;" text="    Результат отслеживания">
+         <font>
+            <Font name="Forte" size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
